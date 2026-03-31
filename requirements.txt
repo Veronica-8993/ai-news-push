@@ -1,20 +1,10 @@
-# ========================================
-# 完整依赖列表（一次性解决所有问题）
-# ========================================
-
-# 核心依赖
-coze-coding-dev-sdk>=0.5.11
+# Coze 工具
 coze-coding-utils>=0.2.4
-coze-workload-identity>=0.1.4
-cozeloop>=0.1.25
 
 # LangChain 和 LangGraph
 langchain>=1.0.0
 langchain-core>=1.0.0
 langgraph>=1.0.0
-langchain-openai>=1.0.0
-langsmith>=0.4.0
-openai>=2.0.0
 
 # 基础库
 pydantic>=2.0.0
@@ -22,32 +12,16 @@ requests>=2.28.0
 jinja2>=3.0.0
 python-dateutil>=2.8.0
 
-# HTML/XML 解析
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
-
-# 文档处理
-python-pptx>=1.0.0
-python-docx>=1.1.0
-openpyxl>=3.1.0
-pypdf>=6.0.0
-reportlab>=4.0.0
-pillow>=10.0.0
-
-# 数据处理
-numpy>=1.24.0
-pandas>=2.0.0
-
 # HTTP 客户端
 httpx>=0.25.0
 httpcore>=1.0.0
 h11>=0.14.0
 
-# 其他工具
-tenacity>=8.0.0
-tiktoken>=0.5.0
+# 数据处理
 orjson>=3.9.0
+tenacity>=8.0.0
+
+# 其他工具
+typing_extensions>=4.0.0
 pyyaml>=6.0
 click>=8.0.0
-rich>=13.0.0
-tqdm>=4.65.0

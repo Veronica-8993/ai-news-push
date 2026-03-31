@@ -16,3 +16,8 @@ jinja2>=3.0.0
 python-dateutil>=2.8.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
+
+# 文档处理（coze-coding-dev-sdk 依赖）
+python-pptx>=1.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
